@@ -13,14 +13,14 @@ function showSection(sectionId) {
 function showProductDetails(productId) {
   const productDetails = {
       produto1: {
-          titulo: 'Produto 1',
-          descricao: 'Descrição detalhada do Produto 1. Feito com materiais reciclados.',
+          titulo: 'Bolsa de Memórias',
+          descricao: 'Feita a partir de tecidos que pertenciam a uma história que vale a pena ser lembrada.',
           imagem: 'https://via.placeholder.com/500x300',
           linkCompra: 'https://www.exemplo.com/produto1'
       },
       produto2: {
-          titulo: 'Produto 2',
-          descricao: 'Descrição detalhada do Produto 2. Estilo único e sustentável.',
+          titulo: 'Bolsa do Amor Eterno',
+          descricao: 'Transformamos as peças de quem se foi em algo que pode acompanhar você todos os dias.',
           imagem: 'https://via.placeholder.com/500x300',
           linkCompra: 'https://www.exemplo.com/produto2'
       }
@@ -53,3 +53,13 @@ function moveCarousel() {
 }
 
 setInterval(moveCarousel, 3000);
+
+document.getElementById('enviar-feedback').addEventListener('click', () => {
+  const feedback = document.getElementById('feedback').value;
+  if (feedback.trim()) {
+      alert('Obrigado pelo seu feedback! Ele será muito importante para nós.');
+      document.getElementById('feedback').value = ''; // Limpar campo
+  } else {
+      alert('Por favor, escreva seu feedback antes de enviar.');
+  }
+});

@@ -12,13 +12,12 @@
     <header class="header">
         <div class="logo">
             <h1>Cosmica Cria</h1>
-            <p>Moda Regenerativa</p>
+            <p>Moda Regenerativa - Afetividade em cada peça</p>
         </div>
         <nav class="nav">
             <ul>
                 <li><a href="#" onclick="showSection('home')">Início</a></li>
                 <li><a href="#" onclick="showSection('sobre')">Sobre</a></li>
-                <li><a href="#" onclick="showSection('servicos')">Serviços</a></li>
                 <li><a href="#" onclick="showSection('produtos')">Produtos</a></li>
                 <li><a href="#" onclick="showSection('contato')">Contato</a></li>
             </ul>
@@ -28,41 +27,52 @@
     <main>
         <section id="home" class="section home">
             <div class="carousel">
-                <div class="carousel-item"><img src="https://via.placeholder.com/1200x500?text=Produto+1" alt="Produto 1"></div>
-                <div class="carousel-item"><img src="https://via.placeholder.com/1200x500?text=Produto+2" alt="Produto 2"></div>
-                <div class="carousel-item"><img src="https://via.placeholder.com/1200x500?text=Produto+3" alt="Produto 3"></div>
+                <div class="carousel-item"><img src="https://via.placeholder.com/1200x500?text=Afeto+em+cada+detalhe" alt="Produto 1"></div>
+                <div class="carousel-item"><img src="https://via.placeholder.com/1200x500?text=Renovando+histórias" alt="Produto 2"></div>
+                <div class="carousel-item"><img src="https://via.placeholder.com/1200x500?text=Homenagem+afetuosa" alt="Produto 3"></div>
             </div>
             <div class="welcome-message">
                 <h2>Bem-vindo à Cosmica Cria!</h2>
-                <p>Empresa unipessoal dedicada à moda regenerativa! Aproveitamos peças de roupas, doações e resíduos de tecidos para transformá-las em acessórios, mochilas e bolsas! Venha ver nossos produtos e entre em contato conosco!</p>
+                <p>Nosso propósito é transformar peças que guardam memórias em novos objetos, carregados de amor, respeito e lembrança. Cada bolsa, cada mochila é feita para honrar histórias passadas e criar novas memórias.</p>
             </div>
         </section>
 
         <section id="sobre" class="section" style="display: none;">
             <h2>Sobre Nós</h2>
-            <p>A Cosmica Cria é uma empresa focada em design, desenvolvimento e soluções criativas. Nosso objetivo é levar sua marca a um novo nível de expressão.</p>
+            <p>Somos uma pequena empresa com um grande coração. Reaproveitamos tecidos, roupas doadas, e até mesmo itens de parentes que se foram, para criar acessórios e bolsas cheias de significado e afeto. Cada peça tem uma história única, e nós respeitamos cada uma delas.</p>
         </section>
 
         <section id="produtos" class="section" style="display: none;">
             <h2>Produtos</h2>
-            <p>Veja alguns dos nossos produtos incríveis!</p>
+            <p>Aqui, você encontra acessórios feitos com carinho, a partir de materiais que carregam memórias e sentimentos.</p>
             <div class="produto-grid">
                 <div class="produto-item" onclick="showProductDetails('produto1')">
                     <img src="https://via.placeholder.com/300x200" alt="Produto 1">
-                    <h3>Produto 1</h3>
-                    <p>Descrição do Produto 1</p>
+                    <h3>Bolsa de Memórias</h3>
+                    <p>Feita a partir de tecidos que pertenciam a uma história que vale a pena ser lembrada.</p>
                 </div>
                 <div class="produto-item" onclick="showProductDetails('produto2')">
                     <img src="https://via.placeholder.com/300x200" alt="Produto 2">
-                    <h3>Produto 2</h3>
-                    <p>Descrição do Produto 2</p>
+                    <h3>Bolsa do Amor Eterno</h3>
+                    <p>Transformamos as peças de quem se foi em algo que pode acompanhar você todos os dias.</p>
                 </div>
+            </div>
+
+            <h3>Preço: Você escolhe!</h3>
+            <div class="valores">
+                <p><strong>Sustentável:</strong> A escolha mais acessível, pensada para garantir que mais pessoas possam apoiar o propósito.</p>
+                <p><strong>Generoso:</strong> Para quem deseja apoiar de forma mais significativa, contribuindo para o trabalho artesanal e sustentável.</p>
+                <p><strong>Abundante:</strong> Para aqueles que desejam apoiar de maneira plena, garantindo que o trabalho continue a crescer e impactar positivamente muitas pessoas.</p>
+            </div>
+
+            <div class="mais-produtos">
+                <p>Veja mais produtos em nosso <a href="https://www.instagram.com" target="_blank">Instagram</a> ou no nosso <a href="https://www.catalogo.com" target="_blank">Catálogo Online</a>.</p>
             </div>
         </section>
 
         <section id="contato" class="section" style="display: none;">
             <h2>Contato</h2>
-            <p>Fale conosco para mais informações!</p>
+            <p>Entre em contato conosco para saber mais sobre como nossas peças podem fazer parte de sua história.</p>
             <form id="form-contato">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" required>
@@ -82,6 +92,12 @@
             <img id="produto-imagem" src="" alt="Produto">
             <p id="produto-descricao"></p>
             <button id="comprar-button">Comprar</button>
+
+            <div class="feedback">
+                <h3>Deixe seu Feedback</h3>
+                <textarea id="feedback" placeholder="Conte-nos o que você achou deste produto..."></textarea>
+                <button id="enviar-feedback">Enviar Feedback</button>
+            </div>
         </section>
     </main>
 
