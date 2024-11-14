@@ -56,11 +56,31 @@ header nav ul li a:hover {
   color: #A5D6A7;
 }
 
+/*parte do main*/
+
+
 main {
   padding: 40px 20px;
   margin-bottom: 40px;
 }
+.section{
+  border: 3px solid black;
+  padding: 5%;
+}
+.section>p {
+  font-size: 1.25rem;
+  text-align: justify;
+}
 
+
+.alexia{
+  display: flex;
+  justify-content: space-between;
+}
+.alexia>img{
+  width: 500px;
+  height: 600px;
+}
 .carousel {
   display: flex;
   overflow: hidden;

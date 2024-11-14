@@ -52,7 +52,7 @@ function moveCarousel() {
   });
 }
 
-setInterval(moveCarousel, 3000);
+setInterval(moveCarousel, 2000);
 
 document.getElementById('enviar-feedback').addEventListener('click', () => {
   const feedback = document.getElementById('feedback').value;
