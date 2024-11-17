@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+.header-mobile{
+  display: none;
+} /*Muda o header se estiver no mobile ou não*/
+
 header {
   /* background-color: #8BC34A; */
   background:linear-gradient(270deg,#8BC34A,#677e4d);
@@ -19,6 +23,7 @@ header {
   padding: 30px 0;
   text-align: center;
   border-bottom: 5px solid #6E8B3D;
+  display: block;
 }
 
 header .logo h1 {
@@ -96,7 +101,7 @@ main {
 
 .carousel-item img {
   width: 100%;
-  height: 500px;
+  height: 26.042vw;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -216,4 +221,53 @@ footer {
 
 footer p {
   font-size: 14px;
+}
+
+
+/*CSS do mobile*/
+@media (max-width: 768px) { 
+  
+  .header{
+    display: none;
+  }
+  
+  .mobile{
+    display: block;
+  }
+  
+  body {
+  background-color: #61806b;
+  }
+
+  .header-mobile{
+    background: #e3e6dd;
+    border-bottom: none;
+    display: block;
+  }
+
+  .menu-hamburguer, .logo-mobile, .iconebolsa{
+    height: 9.375vw;
+    margin: 10px;
+  }
+
+  .menu-hamburguer{
+    float: left;
+  }
+
+  .logo-mobile{
+    float: center;
+  }
+
+  .iconebolsa{
+    float: right;
+  }
+
+  .section{
+    background-color: #e3e6dd;
+  }
+
+  #produto-imagem{
+    height: 26.042vw;
+  }
+
 }
