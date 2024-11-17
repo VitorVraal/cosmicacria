@@ -69,7 +69,7 @@ main {
   margin-bottom: 40px;
 }
 .section{
-  border: 3px solid black;
+  /* border: 3px solid black; */
   padding: 5%;
 }
 .section>p {

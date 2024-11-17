@@ -16,13 +16,13 @@ function showProductDetails(productId) {
           titulo: 'Bolsa de Memórias',
           descricao: 'Feita a partir de tecidos que pertenciam a uma história que vale a pena ser lembrada.',
           imagem: 'https://via.placeholder.com/500x300',
-          linkCompra: 'https://www.exemplo.com/produto1'
+          linkCompra: 'https://www.instagram.com/cosmicacria/'
       },
       produto2: {
           titulo: 'Bolsa do Amor Eterno',
           descricao: 'Transformamos as peças de quem se foi em algo que pode acompanhar você todos os dias.',
           imagem: 'https://via.placeholder.com/500x300',
-          linkCompra: 'https://www.exemplo.com/produto2'
+          linkCompra: 'https://www.instagram.com/cosmicacria/'
       }
   };
 
