@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+.menu-abrir{
+  display: none;
+}
+
 .header-mobile{
   display: none;
 } /*Muda o header se estiver no mobile ou não*/
