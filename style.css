@@ -89,6 +89,8 @@ main {
 .alexia>img{
   width: 34.722vw;
 }
+
+
 .carousel {
   display: flex;
   overflow: hidden;
@@ -274,6 +276,7 @@ footer p {
   #produto-imagem{
     height: 26.042vw;
   }
+
 
   /*estilo do menu hamburguer*/
 
