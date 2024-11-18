@@ -83,12 +83,11 @@ main {
 
 
 .alexia{
-  display: flex;
+  display: column;
   justify-content: space-between;
 }
 .alexia>img{
-  width: 500px;
-  height: 600px;
+  width: 34.722vw;
 }
 .carousel {
   display: flex;
@@ -185,6 +184,8 @@ main {
   text-decoration: none;
   font-size: 18px;
 }
+
+
 
 .feedback {
   margin-top: 40px;
