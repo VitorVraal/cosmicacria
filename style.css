@@ -272,7 +272,14 @@ footer p {
 
   /*estilo do menu hamburguer*/
 
-.menu-hamburguer:hover{
+.menu-hamburguer:hover, .iconebolsa:hover{
+  cursor: pointer;
+  background-color: #a0b491;
+  transition: 300ms;
+  border-radius: 10px;
+}
+
+.logo-mobile:hover{
   cursor: pointer;
 }
 
@@ -283,14 +290,28 @@ footer p {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #373937;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
 }
 
-.item-menu{
-  color: white;
+.item-fechar{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.item-menu, .item-fechar{
+  color: #e3e6dd;
+  cursor: pointer;
+}
+
+.item-menu:hover, .item-fechar:hover{
+  color: #a0b491;
+  transition: 300ms;
 }
 
 }

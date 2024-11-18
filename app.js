@@ -73,3 +73,4 @@ function abreMenu() {
 function fechaMenu() {
     document.getElementById("meuMenu-abrir").style.width = "0"
 }
+/*Funções para abrir e fechar o menu hambúrguer*/
