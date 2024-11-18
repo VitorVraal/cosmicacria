@@ -298,6 +298,7 @@ footer p {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  display: block;
 }
 
 .item-fechar{
