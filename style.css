@@ -270,4 +270,27 @@ footer p {
     height: 26.042vw;
   }
 
+  /*estilo do menu hamburguer*/
+
+.menu-hamburguer:hover{
+  cursor: pointer;
+}
+
+.menu-abrir{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.item-menu{
+  color: white;
+}
+
 }

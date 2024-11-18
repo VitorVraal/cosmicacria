@@ -9,6 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="menu-abrir" id="meuMenu-abrir">
+        <p class="item-menu" onClick="fechaMenu()">Fechar</p>
+        <p class="item-menu" href="#" onclick="showSection('home')">Inicio</p>
+        <p class="item-menu" href="#" onclick="showSection('sobre')">Sobre</p>
+        <p class="item-menu" href="#" onclick="showSection('produtos')">Produtos</p>
+        <p class="item-menu" href="#" onclick="showSection('contato')">Contato</p>
+    </div>
     <header class="header">
         <div class="logo">
             <h1>Cosmica Cria</h1>
@@ -25,11 +32,12 @@
     </header>
     
     <header class="header-mobile">
-        <img src="https://img.icons8.com/?size=100&id=8113&format=png&color=000000" class="menu-hamburguer">
+        <img src="https://img.icons8.com/?size=100&id=8113&format=png&color=000000" class="menu-hamburguer" onClick="abreMenu()">
         <img src="CosmicaCriaLogo.png" class="logo-mobile" onclick="showSection('home')">
         <img src="iconebolsa.png" class="iconebolsa" href="#" onclick="showSection('produtos')">
     </header>
-
+        
+        
 
     <main>
         <section id="home" class="section home">

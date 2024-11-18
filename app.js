@@ -1,3 +1,5 @@
+
+
 function showSection(sectionId) {
   const sections = document.querySelectorAll('.section');
   sections.forEach(section => {
@@ -63,3 +65,11 @@ document.getElementById('enviar-feedback').addEventListener('click', () => {
       alert('Por favor, escreva seu feedback antes de enviar.');
   }
 });
+
+function abreMenu() {
+    document.getElementById("meuMenu-abrir").style.width = "250px"
+    console.log('teste')
+}
+function fechaMenu() {
+    document.getElementById("meuMenu-abrir").style.width = "0"
+}
