@@ -304,14 +304,18 @@ footer p {
   margin-left: 50px;
 }
 
+.item-menu{
+  padding: 20px;
+}
+
 .item-menu, .item-fechar{
   color: #e3e6dd;
-  cursor: pointer;
 }
 
 .item-menu:hover, .item-fechar:hover{
   color: #a0b491;
   transition: 300ms;
+  cursor: pointer;
 }
 
 }
