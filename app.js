@@ -15,16 +15,22 @@ function showSection(sectionId) {
 function showProductDetails(productId) {
   const productDetails = {
       produto1: {
-          titulo: 'Bolsa de Memórias',
+          titulo: 'Mochilas',
           descricao: 'Feita a partir de tecidos que pertenciam a uma história que vale a pena ser lembrada.',
           imagem: 'https://via.placeholder.com/500x300',
           linkCompra: 'https://www.instagram.com/cosmicacria/'
       },
       produto2: {
-          titulo: 'Bolsa do Amor Eterno',
+          titulo: 'Bags',
           descricao: 'Transformamos as peças de quem se foi em algo que pode acompanhar você todos os dias.',
           imagem: 'https://via.placeholder.com/500x300',
           linkCompra: 'https://www.instagram.com/cosmicacria/'
+      },
+      produto3: {
+        titulo: 'Pochetes',
+        descricao: 'Feita a partir de tecidos que pertenciam a uma história que vale a pena ser lembrada.',
+        imagem: 'https://via.placeholder.com/500x300',
+        linkCompra: 'https://www.instagram.com/cosmicacria/'
       }
   };
 
@@ -73,4 +79,6 @@ function abreMenu() {
 function fechaMenu() {
     document.getElementById("meuMenu-abrir").style.width = "0"
 }
+
+
 /*Funções para abrir e fechar o menu hambúrguer*/

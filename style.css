@@ -5,12 +5,34 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Krona One', sans-serif;
   background-color: #f0f4f1;
   color: #3e4c3c;
   line-height: 1.6;
   margin: 0;
 }
+
+header .logo h1 {
+  font-size: 38px;
+  font-weight: 600;
+  font-family: 'Krona One', sans-serif;
+}
+
+header .logo p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Krona One', sans-serif;
+}
+
+header nav ul li a {
+  font-family: 'Krona One', sans-serif;
+}
+
+.produto-item h3 {
+  font-size: 22px;
+  font-family: 'Krona One', sans-serif;
+}
+
 
 .menu-abrir{
   display: none;
@@ -22,7 +44,7 @@ body {
 
 header {
   /* background-color: #8BC34A; */
-  background:linear-gradient(270deg,#61806b,#43b467);
+  background:linear-gradient(270deg,#61806b,#598d6a);
   color: #fff;
   padding: 30px 0;
   text-align: center;
@@ -82,14 +104,18 @@ main {
 }
 
 
-.alexia{
+.alexia {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; 
+  align-items: center;    
+  height: 100vh;          
 }
-.alexia>img{
+
+.alexia > img {
   width: 500px;
   height: 600px;
 }
+
 .carousel {
   display: flex;
   overflow: hidden;
@@ -117,7 +143,7 @@ main {
 
 .welcome-message h2 {
   font-size: 36px;
-  color: #8BC34A;
+  color: #65b12c;
   font-weight: 600;
 }
 
@@ -217,7 +243,7 @@ main {
 
 footer {
   background-color: #61806b;
-  color: #fff;
+  color: #373937;
   text-align: center;
   padding: 15px;
   margin-top: 40px;
@@ -278,6 +304,8 @@ footer p {
     height: 26.042vw;
   }
 
+  
+
   /*estilo do menu hamburguer*/
 
 .menu-hamburguer:hover, .iconebolsa:hover{
@@ -325,6 +353,10 @@ footer p {
   color: #a0b491;
   transition: 300ms;
   cursor: pointer;
+}
+
+footer{ 
+  background-color: #e3e6dd;
 }
 
 }
