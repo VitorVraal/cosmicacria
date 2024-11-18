@@ -22,7 +22,7 @@ body {
 
 header {
   /* background-color: #8BC34A; */
-  background:linear-gradient(270deg,#8BC34A,#677e4d);
+  background:linear-gradient(270deg,#61806b,#43b467);
   color: #fff;
   padding: 30px 0;
   text-align: center;
@@ -83,14 +83,13 @@ main {
 
 
 .alexia{
-  display: column;
+  display: flex;
   justify-content: space-between;
 }
 .alexia>img{
-  width: 34.722vw;
+  width: 500px;
+  height: 600px;
 }
-
-
 .carousel {
   display: flex;
   overflow: hidden;
@@ -187,8 +186,6 @@ main {
   font-size: 18px;
 }
 
-
-
 .feedback {
   margin-top: 40px;
 }
@@ -219,7 +216,7 @@ main {
 }
 
 footer {
-  background-color: #6E8B3D;
+  background-color: #61806b;
   color: #fff;
   text-align: center;
   padding: 15px;
@@ -230,6 +227,10 @@ footer p {
   font-size: 14px;
 }
 
+.cosmicalogo{
+  width: 200px;
+  height: 100px;
+}
 
 /*CSS do mobile*/
 @media (max-width: 768px) { 
@@ -276,7 +277,6 @@ footer p {
   #produto-imagem{
     height: 26.042vw;
   }
-
 
   /*estilo do menu hamburguer*/
 
