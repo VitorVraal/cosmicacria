@@ -17,20 +17,21 @@ function showProductDetails(productId) {
       produto1: {
           titulo: 'Mochilas',
           descricao: 'Feita a partir de tecidos que pertenciam a uma história que vale a pena ser lembrada.',
-          imagem: 'https://via.placeholder.com/500x300',
-          linkCompra: 'https://www.instagram.com/cosmicacria/'
+          imagem: 'produtos/IMG_9400.JPG',
+          linkCompra: 'https://cosmicaupcycle.offstore.me/shop?tagId=696055'
       },
+      
       produto2: {
           titulo: 'Bags',
           descricao: 'Transformamos as peças de quem se foi em algo que pode acompanhar você todos os dias.',
-          imagem: 'https://via.placeholder.com/500x300',
-          linkCompra: 'https://www.instagram.com/cosmicacria/'
+          imagem: 'produtos/BagDeFrente.JPG',
+          linkCompra: 'https://cosmicaupcycle.offstore.me/shop?tagId=738230'
       },
       produto3: {
         titulo: 'Pochetes',
         descricao: 'Feita a partir de tecidos que pertenciam a uma história que vale a pena ser lembrada.',
-        imagem: 'https://via.placeholder.com/500x300',
-        linkCompra: 'https://www.instagram.com/cosmicacria/'
+        imagem: 'produtos/IMG_5863.JPG',
+        linkCompra: 'https://cosmicaupcycle.offstore.me/shop?tagId=696056'
       }
   };
 

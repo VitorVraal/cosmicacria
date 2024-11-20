@@ -1,10 +1,10 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: 'Krona One', sans-serif;
   background-color: #f0f4f1;
   color: #3e4c3c;
@@ -50,6 +50,7 @@ header {
   text-align: center;
   border-bottom: 5px solid #6E8B3D;
   display: block;
+  
 }
 
 header .logo h1 {
@@ -64,16 +65,19 @@ header .logo p {
 
 header nav {
   margin-top: 20px;
+  
 }
 
 header nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  padding: 0;
 }
 
 header nav ul li {
   margin: 0 15px;
+  
 }
 
 header nav ul li a {
@@ -101,6 +105,39 @@ main {
 .section>p {
   font-size: 1.25rem;
   text-align: justify;
+}
+
+.RedesSociais {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.RedesSociais a {
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.RedesSociais img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.RedesSociais a:hover img {
+  transform: scale(1.1);
+}
+
+.RedesSociais span {
+  font-size: 14px;
+  font-weight: bold;
 }
 
 
@@ -356,6 +393,8 @@ footer p {
 }
 
 footer{ 
+  width: 100%;
+  align-self: flex-end;
   background-color: #e3e6dd;
 }
 

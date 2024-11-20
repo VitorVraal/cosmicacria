@@ -71,21 +71,21 @@
             <p>Aqui, você encontra acessórios feitos com carinho, a partir de materiais que carregam memórias e sentimentos.</p>
             <div class="produto-grid">
                 <div class="produto-item" onclick="showProductDetails('produto1')">
-                    <img src="https://via.placeholder.com/300x200" alt="Produto 1">
+                    <img src="produtos/mochila up chefron (2).jpg" alt="Produto 1">
                     <h3>Mochilas</h3>
-                    <p>Feita a partir de tecidos que pertenciam a uma história que vale a pena ser lembrada.</p>
+                    <p>Feita com o método Upcycle, a mochila CosmicaCria transforma resíduos em estilo único e sustentável. Leve com você não apenas funcionalidade, mas também uma escolha consciente para o planeta!</p>
                 </div>
                 
                 <div class="produto-item" onclick="showProductDetails('produto2')">
-                    <img src="https://via.placeholder.com/300x200" alt="Produto 2">
+                    <img src="produtos/bag1.JPG" alt="Produto 2">
                     <h3>Bags</h3>
-                    <p>Transformamos as peças de quem se foi em algo que pode acompanhar você todos os dias.</p>
+                    <p>Práticas, estilosas e feitas para acompanhar você em qualquer momento. As bags CosmicaCria unem design único e funcionalidade para o seu dia a dia.</p>
                 </div>
 
                 <div class="produto-item" onclick="showProductDetails('produto3')">
-                    <img src="https://via.placeholder.com/300x200" alt="Produto 3">
+                    <img src="produtos/pochete1.JPEG" alt="Produto 3">
                     <h3>Pochetes</h3>
-                    <p>Transformamos as peças de quem se foi em algo que pode acompanhar você todos os dias.</p>
+                    <p>Compactas e cheias de estilo, as pochetes CosmicaCria são perfeitas para levar o essencial com conforto e elegância em qualquer ocasião.</p>
                 </div>
             </div>
 
@@ -97,26 +97,29 @@
             </div>
 
             <div class="mais-produtos">
-                <p>Veja mais produtos em nosso <a href="https://www.instagram.com/cosmicacria/" target="_blank">Instagram</a> ou no nosso <a href="https://photos.google.com/share/AF1QipON5_rDYbYdn6iIRdjBZ3wyqWZwHBuuqkCQJEu3RsIeac922ecuc7jHXv65vxUztg?key=MXJsSFMyb0E0UE9GWW9ieU5Sa0hER0sxeWo1VzFn" target="_blank">Catálogo Online</a>.</p>
+                <p>Veja mais produtos em nosso <a href="https://www.instagram.com/cosmicacria/" target="_blank">Instagram</a> ou no nosso <a href="https://cosmicaupcycle.offstore.me/home" target="_blank">Catálogo Online</a>.</p>
             </div>
         </section>
 
         <section id="contato" class="section" style="display: none;">
             <h2>Contato</h2>
-            <p>Entre em contato conosco para saber mais sobre nossos como nossas peças podem fazer parte de sua história.</p>
-            <form id="form-contato">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" required>
-
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" required>
-
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" required></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
+            <p>Quer saber mais sobre nós? Um produto feito com uma peça importante para você? Conecte-se conosco e descubra mais sobre nossas peças e nossa história!</p>
+            <div class="RedesSociais">
+                <a href="https://instagram.com/suaempresa" target="_blank" class="RedesSociais">
+                    <img src="icones/Instagram_icon.png" alt="Instagram">
+                    <span>Instagram</span>
+                </a>
+                <a href="https://pinterest.com/suaempresa" target="_blank" class="RedesSociais">
+                    <img src="icones/pinterest_icon.png" alt="Pinterest">
+                    <span>Pinterest</span>
+                </a>
+                <a href="https://suaempresa.com/catalogo" target="_blank" class="RedesSociais">
+                    <img src="icones/icone_icon.png" alt="Catálogo Online">
+                    <span>Catálogo</span>
+                </a>
+            </div>
         </section>
+        
 
         <section id="produto-detalhes" class="section" style="display: none;">
             <h2 id="produto-titulo"></h2>
@@ -124,12 +127,6 @@
             <p id="produto-descricao"></p>
           <button id="comprar-button" onclick="comprarProduto()">Comprar</button>
 
-
-            <div class="feedback">
-                <h3>Deixe seu Feedback</h3>
-                <textarea id="feedback" placeholder="Conte-nos o que você achou deste produto..."></textarea>
-                <button id="enviar-feedback">Enviar Feedback</button>
-            </div>
         </section>
     </main>
 </div>
