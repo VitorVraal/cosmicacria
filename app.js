@@ -30,7 +30,7 @@ function showProductDetails(productId) {
       produto3: {
         titulo: 'Pochetes',
         descricao: 'Feita a partir de tecidos que pertenciam a uma história que vale a pena ser lembrada.',
-        imagem: 'produtos/IMG_5863.JPG',
+        imagem: 'produtos/pochete2.JPG',
         linkCompra: 'https://cosmicaupcycle.offstore.me/shop?tagId=696056'
       }
   };
