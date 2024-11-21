@@ -75,7 +75,6 @@ document.getElementById('enviar-feedback').addEventListener('click', () => {
 
 function abreMenu() {
     document.getElementById("meuMenu-abrir").style.width = "250px"
-    console.log('teste')
 }
 function fechaMenu() {
     document.getElementById("meuMenu-abrir").style.width = "0"
