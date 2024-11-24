@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cosmica Cria</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu-abrir" id="meuMenu-abrir">
+        <p class="item-fechar" onClick="fechaMenu()">X</p>
+        <p class="item-menu" href="#" onclick="showSection('home')">Inicio</p>
+        <p class="item-menu" href="#" onclick="showSection('sobre')">Sobre</p>
+        <p class="item-menu" href="#" onclick="showSection('produtos')">Produtos</p>
+        <p class="item-menu" href="#" onclick="showSection('contato')">Contato</p>
+    </div>
+    <header class="header">
+        <div class="logo">
+            <img src="CosmicaCriaLogo.png" class="cosmicalogo" onclick="showSection('home')">
+            <p>Quando você muda, o mundo muda!</p>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Início</a></li>
+                <li><a href="#" onclick="showSection('sobre')">Sobre</a></li>
+                <li><a href="#" onclick="showSection('produtos')">Produtos</a></li>
+                <li><a href="#" onclick="showSection('contato')">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <header class="header-mobile">
+        <img src="https://img.icons8.com/?size=100&id=8113&format=png&color=000000" class="menu-hamburguer" onClick="abreMenu()">
+        <img src="CosmicaCriaLogo.png" class="logo-mobile" onclick="showSection('home')">
+        <img src="iconebolsa.png" class="iconebolsa" href="#" onclick="showSection('produtos')">
+    </header>
+        
+        
+
+    <main>
+        <section id="home" class="section home">
+            <div class="carousel">
+                <div class="carousel-item"><img src="carrossel/IMG_5482.jpg" alt="Produto 1"></div>
+                <div class="carousel-item"><img src="carrossel/5FEA8BEE-207F-4456-887F-A6BFE12C6E70.JPEG" alt="Produto 2"></div>
+                <div class="carousel-item"><img src="carrossel/IMG_5863.jpg" alt="Produto 3"></div>
+            </div>
+            <div class="welcome-message">
+                <h2>Bem-vindo à Cosmica Cria!</h2>
+                <p>Nosso propósito é transformar peças que guardam memórias em novos objetos, carregados de amor, respeito e lembrança. Cada bolsa, cada mochila é feita para honrar histórias passadas e criar novas memórias.</p>
+            </div>
+        </section>
+
+        <section id="sobre" class="section" style="display: none;">
+            <h1>Sobre Nós</h1>
+            <p>A Cósmica surgiu em 2020, de forma espontânea, como um pequeno projeto de uma carioca que, recém chegada ao sul, passou a ver potencial no que muitos chamariam de "lixo". Sem grandes recursos, comecei criando bolsas de calças jeans garimpadas e mochilas feitas com retalhos das minhas próprias costuras. Nem sabia o que era "upcycle" na época, mas foi assim que nasceu a Cósmica.
+
+                Nosso trabalho é focado no reaproveitamento de materiais, como tecidos, papéis e até resíduos da indústria têxtil local. Compramos apenas o necessário em aviamentos e buscamos garantir que cada peça seja durável e de qualidade, sempre com o menor impacto ambiental possível.
+                
+                Eu sou Alexia, fundadora da Cósmica, eco designer, e cada criação é feita por mim, com muito cuidado e atenção ao meio ambiente. Cada peça é única, transformada a partir de materiais que ganharam uma nova vida.</p>
+                <div class="sobre-imagens">
+                    <div class="alexia">
+                        <img src="imagespersons/alexia.png" alt="Alexia1">
+                    </div>
+                </div>
+        </section>
+
+        <section id="produtos" class="section" style="display: none;">
+            <h2>Produtos</h2>
+            <p>Aqui, você encontra acessórios feitos com carinho, a partir de materiais que carregam memórias e sentimentos.</p>
+            <div class="produto-grid">
+                <div class="produto-item" onclick="showProductDetails('produto1')">
+                    <img src="https://s7.ezgif.com/tmp/ezgif-7-60ab6f2ee6.png" alt="Produto 1">
+                    <h3>Mochilas</h3>
+                    <p>Feita a partir de tecidos que pertenciam a uma história que vale a pena ser lembrada.</p>
+                </div>
+                
+                <div class="produto-item" onclick="showProductDetails('produto2')">
+                    <img src="https://s7.ezgif.com/tmp/ezgif-7-594e971db9.png" alt="Produto 2">
+                    <h3>Bags</h3>
+                    <p>Transformamos as peças de quem se foi em algo que pode acompanhar você todos os dias.</p>
+                </div>
+
+                <div class="produto-item" onclick="showProductDetails('produto3')">
+                    <img src="https://s7.ezgif.com/tmp/ezgif-7-f3df45fbd3.png" alt="Produto 3">
+                    <h3>Pochetes</h3>
+                    <p>Transformamos as peças de quem se foi em algo que pode acompanhar você todos os dias.</p>
+                </div>
+            </div>
+
+            <h3>Preço: Você escolhe!</h3>
+            <div class="valores">
+                <p><strong>Sustentável:</strong> A escolha mais acessível, pensada para garantir que mais pessoas possam apoiar o propósito.</p>
+                <p><strong>Generoso:</strong> Para quem deseja apoiar de forma mais significativa, contribuindo para o trabalho artesanal e sustentável.</p>
+                <p><strong>Abundante:</strong> Para aqueles que desejam apoiar de maneira plena, garantindo que o trabalho continue a crescer e impactar positivamente muitas pessoas.</p>
+            </div>
+
+            <div class="mais-produtos">
+                <p>Veja mais produtos em nosso <a href="https://www.instagram.com/cosmicacria/" target="_blank">Instagram</a> ou no nosso <a href="https://photos.google.com/share/AF1QipON5_rDYbYdn6iIRdjBZ3wyqWZwHBuuqkCQJEu3RsIeac922ecuc7jHXv65vxUztg?key=MXJsSFMyb0E0UE9GWW9ieU5Sa0hER0sxeWo1VzFn" target="_blank">Catálogo Online</a>.</p>
+            </div>
+        </section>
+
+        <section id="contato" class="section" style="display: none;">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para saber mais sobre nossos como nossas peças podem fazer parte de sua história.</p>
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="produto-detalhes" class="section" style="display: none;">
+            <h2 id="produto-titulo"></h2>
+            <img id="produto-imagem" src="" alt="Produto">
+            <p id="produto-descricao"></p>
+          <button id="comprar-button" onclick="comprarProduto()">Comprar</button>
+
+
+            <div class="feedback">
+                <h3>Deixe seu Feedback</h3>
+                <textarea id="feedback" placeholder="Conte-nos o que você achou deste produto..."></textarea>
+                <button id="enviar-feedback">Enviar Feedback</button>
+            </div>
+        </section>
+    </main>
+</div>
+
+    
+
+    <footer>
+        <p>&copy; 2024 Cosmica Cria | Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
